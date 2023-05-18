@@ -748,7 +748,18 @@ width: 100%;
         width: 38px;
         height: 38px;
 
+        
     }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-image:url(/images/bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+     
 
 }
 @media (max-width:462px){
@@ -773,6 +784,16 @@ width: 100%;
         text-align: center;
 
     }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-image:url(/images/bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+     
      
     
 
@@ -794,6 +815,16 @@ width: 100%;
         font-size: 5rem;
 
     }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-image:url(/images/bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+     
 }
 @keyframes homeBgText{
     0%,
